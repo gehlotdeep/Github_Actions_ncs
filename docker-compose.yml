@@ -2,7 +2,7 @@ version: '3'
 
 services:
   django_app:
-    image: kumarsumit74604/djangoproject:latest
+    image: deepakgehlot/ncs-image:latest
     ports:
       - "8000:8000"
     volumes:
